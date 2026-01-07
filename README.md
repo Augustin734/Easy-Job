@@ -1,4 +1,34 @@
-We plan to create a website that simulates a job application, job posting and job search.
-To carry out this project, we have chosen HTML, CSS and JavaScript for the front and node.js for back end as our coding languages.
-For the database, we used Docker Desktop to share a working environment that allows communication between the diferent images we needed.
-For the database, we have decided to use PostgreSQL, an open source database renowned for its reliability.
+
+# Easy-Job
+
+Le but de ce projet était de découvrir comment créer un backend API respectant la méthode CRUD.
+## Technologies utilisé
+
+ - [HTML5](https://www.w3schools.com/html/default.asp)
+ - [CSS3](https://www.w3schools.com/css/default.asp)
+ - [NODE.JS](https://www.w3schools.com/nodejs/)
+ - [PostgresSQL](https://www.postgresql.org/docs/)
+ - [PGAdmin4](https://www.pgadmin.org/docs/)
+ - [Dockerfile](https://www.w3schools.in/docker/intro)
+## Deployment
+
+
+
+```bash
+docker compose down -v
+
+docker compose up --build -d  
+
+docker compose up -d
+
+Pour afficher le site:
+click sur -> http://localhost:3000
+
+Pour afficher la base de donnée:
+click sur -> http://localhost:5050
+```
+
+
+## Authors
+
+[Viemont Augustin](https://github.com/Augustin734)
